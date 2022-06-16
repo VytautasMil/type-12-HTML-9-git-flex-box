@@ -13,7 +13,9 @@
     justify-content: space-evenly;
     /* isdestymas statmena asimi */
     align-items: flex-start;
-    
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
   }
   .flex-container .post {
     width: 200px;
