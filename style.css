@@ -11,6 +11,8 @@
     justify-content: center;
     justify-content: space-between;
     justify-content: space-evenly;
+    /* isdestymas statmena asimi */
+    align-items: flex-start;
     
   }
   .flex-container .post {
