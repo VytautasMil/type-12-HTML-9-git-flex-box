@@ -1,9 +1,35 @@
 .flex-container {
-    background-color: rgb(178,178,178);
+    background-color: rgb(178, 178, 178);
     padding: 25px;
-}
-.post {
+    display: flex;
+    gap: 15px;
+    /* flex-wrap: wrap; */
+    /* kryptis */
+    flex-direction: row;
+    /* issidestymas pagrindine asimi */
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    
+  }
+  .flex-container .post {
+    width: 200px;
+    /* margin: 0 15px; */
+    /* flex-basis: 30%; */
+
+  }
+  .post {
     background-color: snow;
     padding: 10px;
     border-radius: 7px;
-}
+  }
+  
+  .inline-block-container {
+    background-color: rgb(190, 108, 108);
+    padding: 25px;
+  }
+  .inline-block-container .post {
+    display: inline-block;
+    width: 30%;
+  }
